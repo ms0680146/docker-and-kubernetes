@@ -1,4 +1,5 @@
 # docker-and-kubernetes
+## Preface
 Recently, I watched freeCodeCamp.org youtube channel.The docker and kubernetes topic appeals to me.  
 In that topic, I learned:
 - creating docker images, running docker containers, docker volumes, container registry and docker architecture.   
@@ -7,6 +8,7 @@ In that topic, I learned:
 [Youtube Link](https://www.youtube.com/watch?v=Wf2eSG3owoA&ab_channel=freeCodeCamp.org)
 
 
+## Introduction to Docker
 ### What is Docker
 Docker is a tool for running applications in isolated environment.
 
@@ -27,3 +29,18 @@ Install Docker on macOS: https://docs.docker.com/docker-for-mac/install/
 ```cmd
 docker --version
 ```
+
+## Images, Containers, and Ports
+### Images & Containers
+Docker Image:  
+1. Image is a template for creating an environment for your choice.
+2. Snapshot.
+3. Has eveythong you need to run your app, including OS, software, code.
+
+Docker Container:
+1. Running Instance of an image.
+
+### Pulling NGINX Image
+You can go to [docker hub](https://hub.docker.com/) to pull image. 
+
+
